@@ -135,7 +135,7 @@ LoRA/
   README.md                     this file
 ```
 
-After training, model adapters are saved to `lora-ml-assistant/` (not included in the repo due to size).
+After training, model adapters are saved to `lora-ml-assistant/` and training logs (pipeline.log, per-experiment logs, metrics.csv, perplexity.json) are written to `logs/`. Neither directory is included in the repo due to size — both are generated when the notebook is run.
 
 ## Web Interface
 
